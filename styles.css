@@ -1,10 +1,19 @@
-body{
-background-image: url("https://i1.wp.com/laurenthinoul.com/wp-content/uploads/2016/05/ios-developer-wallpaper.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-background-attachment: fixed;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://i1.wp.com/laurenthinoul.com/wp-content/uploads/2016/05/ios-developer-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
 
 }
 a{
